@@ -1,0 +1,17 @@
+{
+  "name": "food",
+  "version": "1.0.0",
+  "description": "practise project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruslan Ragimov",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
