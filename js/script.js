@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "tabheader__item_active"
   );
   modal("[data-modal]", ".modal", modalTimerId);
-  timer(".timer", "2024-11-10");
+  timer(".timer", "2024-24-12");
   cards();
   slider({
     container: ".offer__slider",
