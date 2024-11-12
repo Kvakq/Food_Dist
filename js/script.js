@@ -1,3 +1,6 @@
+require("es6-promise").polyfill();
+import "nodelist-foreach-polyfill";
+
 import tabs from "./modules/tabs";
 import modal from "./modules/modal";
 import timer from "./modules/timer";
@@ -20,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "tabheader__item_active"
   );
   modal("[data-modal]", ".modal", modalTimerId);
-  timer(".timer", "2024-24-12");
+  timer(".timer", "2024-12-21");
   cards();
   slider({
     container: ".offer__slider",
